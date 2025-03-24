@@ -6,11 +6,7 @@ from openai import OpenAI
 load_dotenv()
 
 
-app = Flask(__name__, static_folder='../fontend')
-
-@app.route('/')
-def index():
-    return send_from_directory(app.static_folder, 'index.html')
+app = Flask(__name__)
 
 @app.route('/', methods = ['GET', 'POST']) 
 def home(): 
