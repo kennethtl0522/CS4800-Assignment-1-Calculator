@@ -1,0 +1,19 @@
+# src/latest_ai_development/config/tasks.yaml
+calculating_task:
+  description: >
+    Given the LaTeX-formatted equation {latex}, solve it step by step. 
+    Clearly explain each step with intermediate calculations and reasoning, aiming for clarity and mathematical accuracy.
+  expected_output: >
+    A detailed step-by-step breakdown that shows how to solve the equation {latex}, 
+    including intermediate steps and justifications for each transformation or operation.
+  agent: calculator
+
+reporting_task:
+  description: >
+    Extract the final answer from the solving process in the calculating_task.
+    Do not include intermediate steps or explanations—only return the final result.
+  expected_output: >
+    The final numerical or symbolic answer to the equation {latex} in form of latex only.
+  agent: reporting_analyst
+  context: [calculating_task]
+  

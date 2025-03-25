@@ -7,7 +7,7 @@ function App() {
     const [solution, setSolution] = useState("");
 
     const handleSend = async () => {
-        const response = await fetch("http://localhost:8000/api/solve", {
+        const response = await fetch("http://localhost:8001/api/solve", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json",
