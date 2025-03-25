@@ -12,7 +12,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    margin-top: 8vh;
+    margin-top: 4vh;
     width: 80vi;
 }
 
@@ -26,12 +26,6 @@ math-field {
     border-radius: 6px;
 }
 
-math-field:last-child {
-    font-size: 1.5em;
-    padding: 0.5em;
-    /* border: 0px; */
-    width: 100%;
-}
 
 .SendBtn {
     flex-grow: 0;
@@ -49,18 +43,46 @@ math-field:last-child {
 
 
 .SolutionContainer {
+    position: relative;
     display: flex;
     flex-direction: column;
-
     margin-top: 8vh;
     width: 80vi;
     min-width: 40rem;
+    min-height: 30rem;
     box-shadow: 1px 1px 4px 1px rgba(0,0,0,0.1);
     background-color:white;
-    padding: 1em;
+    border-radius: 6px;
 }
 
 .Solution {
-    align-content: left;
     margin: 1em 3em 1em 3em;
+}
+
+h1 {
+    color: rgb(24, 24, 24);
+}
+
+.LoadingOverlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.7); /* semi-transparent */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 4; 
+  }
+
+l-zoomies {
+    z-index: 5;
+}
+
+math-field:last-child {
+    font-size: 1.5em;
+    padding: 0.5em;
+    border: 0px;
+    width: 100%;
 }

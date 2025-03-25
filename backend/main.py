@@ -33,6 +33,7 @@ def read_root():
 @app.post("/api/solve")
 def solve(request: SolveRequest):
     response = run(request.latex)
+    print(response.raw)
     return response.raw
         
     
