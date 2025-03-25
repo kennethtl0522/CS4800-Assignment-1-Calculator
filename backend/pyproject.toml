@@ -6,7 +6,8 @@ readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
     "dotenv>=0.9.9",
-    "flask>=3.1.0",
+    "fastapi>=0.115.12",
     "jsonify>=0.5",
     "openai>=1.68.0",
+    "uvicorn>=0.34.0",
 ]
