@@ -29,5 +29,16 @@ pip install .
 uvicorn main:app
 ```
 
+## Estimated Hours
+#### Requirements Analysis & Design
+Learning AI Agent - 24 Hours
+Build Frontend - 48 Hours
 
 
+#### Development
+#### Testing
+
+## Actual Work Hours
+#### Requirements Analysis & Design
+#### Development
+#### Testing
