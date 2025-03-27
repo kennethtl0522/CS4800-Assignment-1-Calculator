@@ -1,35 +1,34 @@
-# calculator
+# AI Powered Calculator
+The calculator needs to have a web interface
 
-This template should help get you started developing with Vue 3 in Vite.
+## Feature
+- Python
+  - FastAPI
+  - CrewAI
+    - OpenAI API
+- Javascript
+  - Node
+    - React
+      - Mathlive
 
-## Recommended IDE Setup
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vite.dev/config/).
-
-## Project Setup
+## Environment Setup and Run scripts
 
 ```sh
+cd ./frontend
 npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
 npm run dev
 ```
 
-### Compile and Minify for Production
-
 ```sh
-npm run build
+cd ./backend
+uv pip install -r pyproject.toml
+OR
+poetry install
+OR
+pip install .
+uvicorn main:app
 ```
 
-### Lint with [ESLint](https://eslint.org/)
 
-```sh
-npm run lint
-```
+
