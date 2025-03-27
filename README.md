@@ -76,3 +76,6 @@ Testing OpenAI - 2 Hours
 Testing CrewAI - 2 Hours
 
 Average worked 18 Hours a week. I spent most of my time learning and testing AI, but I was not able to figure out how to let openai output a single answer without getting it wrong. Seems OpenAI needs the process of "Reasoning" and failed to make that a stable output. Learning Restful API also took me a long time, as I had never had experience with those before. But the front-end build-up was easy and fine since I have little experience with Vue. I use Mathlive, Latex Input and Render in this app and it has a native support with react and documentation, and I have a long time haven't code with vue. So I picked React and learned a bit, but it wasn't suffering.
+
+## Screenshots
+https://github.com/kennethtl0522/CS4800-Assignment-1-Calculator/blob/main/Screenshot%202025-03-27%20083136.png
