@@ -7,7 +7,6 @@ The calculator needs to have a web interface
   - CrewAI
     - OpenAI API
 - Javascript
-  - Node
     - React
       - Mathlive
 
