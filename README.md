@@ -1,5 +1,5 @@
 # AI Powered Calculator
-The calculator needs to have a web interface
+This is an AI-powered LaTeX calculator built with React and FastAPI. Users can input math equations using a virtual math field, which are then sent to the backend for step-by-step solving internally and extracts the final answer for display using AI agents. The app displays the solution in beautifully rendered LaTeX, with loading animations for a smooth user experience.
 
 ## Feature
 - Python
