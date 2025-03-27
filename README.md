@@ -1,4 +1,4 @@
-# AI Powered Calculator
+![image](https://github.com/user-attachments/assets/bb667ca7-49dd-4c0a-a1da-cd2e8d87db30)# AI Powered Calculator
 This is an AI-powered LaTeX calculator built with React and FastAPI. Users can input math equations using a virtual math field, which are then sent to the backend for step-by-step solving internally and extracts the final answer for display using AI agents. The app displays the solution in beautifully rendered LaTeX, with loading animations for a smooth user experience.
 
 ## Feature
@@ -79,4 +79,4 @@ Average worked 18 Hours a week. I spent most of my time learning and testing AI,
 
 ## Screenshots
 ![](https://github.com/kennethtl0522/CS4800-Assignment-1-Calculator/blob/main/Screenshot%202025-03-27%20083136.png)
-![Answer is Correct](https://www.symbolab.com/solver/step-by-step/%5Cfrac%7B%5Cleft(3%20%2B%205%5Cright)%20%5Ccdot%20%5Cleft(2%5E%7B3%7D%20-%20%5Clog_%7B10%7D%5Cleft(100%5Cright)%5Cright)%7D%7B4%7D%20%2B%20%5Csin%5Cleft(%5Cfrac%7B%5Cpi%7D%7B6%7D%5Cright)%20-%20e%5E%7B2%7D?or=input)
+[Answer is Correct According to Symbolab](https://www.symbolab.com/solver/step-by-step/%5Cfrac%7B%5Cleft(3%20%2B%205%5Cright)%20%5Ccdot%20%5Cleft(2%5E%7B3%7D%20-%20%5Clog_%7B10%7D%5Cleft(100%5Cright)%5Cright)%7D%7B4%7D%20%2B%20%5Csin%5Cleft(%5Cfrac%7B%5Cpi%7D%7B6%7D%5Cright)%20-%20e%5E%7B2%7D?or=input)
